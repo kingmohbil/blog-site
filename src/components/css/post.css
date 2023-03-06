@@ -1,0 +1,28 @@
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#comments-container {
+  gap: 0.5rem;
+}
+
+#comment-input {
+  width: 100%;
+  margin: 0 !important;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#comment-btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#comments-btn {
+  align-self: flex-end;
+}

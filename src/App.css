@@ -1,0 +1,10 @@
+.cards-container {
+  margin: 3rem auto;
+  width: 50%;
+}
+
+#alert {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 50%;
+}

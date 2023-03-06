@@ -1,0 +1,7 @@
+.comment {
+  background: white;
+  padding: 0.5em;
+  border: 2px solid transparent;
+  border-radius: 16px;
+  width: 60%;
+}
