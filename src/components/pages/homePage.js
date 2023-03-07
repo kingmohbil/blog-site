@@ -41,7 +41,9 @@ const Home = (props) => {
   );
   async function getAllPosts() {
     try {
-      const response = await fetch('http://localhost:5000/posts');
+      const response = await fetch(
+        'https://blog-api-production-23bb.up.railway.app/posts'
+      );
       const data = await response.json();
       if (response.ok) setPosts(data.posts);
       else data.errors.map((error) => console.error(error.msg));

@@ -8,7 +8,7 @@ const Alert = () => {
       <strong>Important Note!</strong> Adding Posts is From{' '}
       <strong>
         <a
-          href="https://github.com/"
+          href="https://kingmohbil.github.io/blog-form-page/#/login"
           target="_blank"
           rel="noreferrer"
           className="text-info"
